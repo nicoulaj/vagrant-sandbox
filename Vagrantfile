@@ -151,7 +151,7 @@ systems = {
     }
   },
   :windows => {
-    :default_version => '2012',
+    :default_version => '2012-standard',
     :default_arch => '64',
     :versions => {
       '7-enterprise' => {
@@ -187,7 +187,7 @@ systems = {
         '64' => 'opentable/win-8.1-core-amd64-nocm'
       },
       '8.1-enterprise' => {
-        '64' => 'opentable/win-8.1-enterprise-i386-nocm',
+        '32' => 'opentable/win-8.1-enterprise-i386-nocm',
         '64' => 'opentable/win-8.1-enterprise-amd64-nocm'
       },
       '2008-datacenter' => {
@@ -211,7 +211,22 @@ systems = {
         '64' => 'opentable/win-2012-standard-amd64-nocm'
       }
     }
-  }
+  },
+  :macos => {
+    :default_version => 'sierra',
+    :default_arch => '64',
+    :versions => {
+      'yosemite' => {
+        '64' => 'jhcook/osx-yosemite-10.10'
+      },
+      'elcapitan' => {
+        '64' => 'jhcook/osx-elcapitan-10.11'
+      },
+      'sierra' => {
+        '64' => 'jhcook/macos-sierra'
+      }
+    }
+  },
 }
 
 # Help
