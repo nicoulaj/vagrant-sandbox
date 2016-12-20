@@ -11,6 +11,7 @@ This project contains a preconfigured Vagrant environment for running various sy
  * [Gentoo](https://www.gentoo.org)
  * [OpenBSD](https://www.openbsd.org)
  * [FreeBSD](https://www.freebsd.org)
+ * [Solaris](http://www.oracle.com/solaris)
  
  Prerequisites
  ----------------

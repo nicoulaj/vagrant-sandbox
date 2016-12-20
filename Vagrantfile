@@ -128,6 +128,18 @@ systems = {
         '64' => 'freebsd/FreeBSD-11.0-STABLE'
       }
     }
+  },
+  :solaris => {
+    :default_version => '11',
+    :default_arch => '64',
+    :versions => {
+      '10' => {
+        '64' => 'tnarik/solaris10-minimal'
+      },
+      '11' => {
+        '64' => 'jonatasbaldin/solaris11'
+      }
+    }
   }
 }
 
