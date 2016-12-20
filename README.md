@@ -5,6 +5,7 @@ This project contains a preconfigured Vagrant environment for running various sy
 
  * [Debian](https://www.debian.org)
  * [Ubuntu](https://www.ubuntu.com)
+ * [Fedora](https://getfedora.org)
  * [CentOS](https://www.centos.org)
  * [Arch Linux](https://www.archlinux.org)
  

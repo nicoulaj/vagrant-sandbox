@@ -51,6 +51,24 @@ systems = {
       },
     }
   },
+  :fedora => {
+    :default_version => '24',
+    :default_arch => '64',
+    :versions => {
+      '21' => {
+        '64' => 'bento/fedora-21'
+      },
+      '22' => {
+        '64' => 'bento/fedora-22'
+      },
+      '23' => {
+        '64' => 'bento/fedora-23'
+      },
+      '24' => {
+        '64' => 'bento/fedora-24'
+      }
+    }
+  },
   :centos => {
     :default_version => '7',
     :default_arch => '64',
