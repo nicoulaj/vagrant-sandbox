@@ -99,6 +99,15 @@ systems = {
       },
     }
   },
+  :opensuse => {
+    :default_version => '13.2',
+    :default_arch => '64',
+    :versions => {
+      '13.2' => {
+        '64' => 'opensuse/openSUSE-13.2-x86_64'
+      },
+    }
+  },
   :openbsd => {
     :default_version => '6.0',
     :default_arch => '64',

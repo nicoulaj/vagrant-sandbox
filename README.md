@@ -9,6 +9,7 @@ This project contains a preconfigured Vagrant environment for running various sy
  * [CentOS](https://www.centos.org)
  * [Arch Linux](https://www.archlinux.org)
  * [Gentoo](https://www.gentoo.org)
+ * [OpenSUSE](https://www.opensuse.org)
  * [OpenBSD](https://www.openbsd.org)
  * [FreeBSD](https://www.freebsd.org)
  * [Solaris](http://www.oracle.com/solaris)
