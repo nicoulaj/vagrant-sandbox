@@ -8,6 +8,8 @@ This project contains a preconfigured Vagrant environment for running various sy
  * [Fedora](https://getfedora.org)
  * [CentOS](https://www.centos.org)
  * [Arch Linux](https://www.archlinux.org)
+ * [OpenBSD](https://www.openbsd.org)
+ * [FreeBSD](https://www.freebsd.org)
  
  Prerequisites
  ----------------

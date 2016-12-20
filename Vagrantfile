@@ -89,6 +89,36 @@ systems = {
         '64' => 'terrywang/archlinux'
       },
     }
+  },
+  :openbsd => {
+    :default_version => '6.0',
+    :default_arch => '64',
+    :versions => {
+      '5.9' => {
+        '64' => 'kaorimatz/openbsd-5.8-amd64'
+      },
+      '5.8' => {
+        '64' => 'kaorimatz/openbsd-5.9-amd64'
+      },
+      '6.0' => {
+        '64' => 'kaorimatz/openbsd-6.0-amd64'
+      }
+    }
+  },
+  :freebsd => {
+    :default_version => '11.0',
+    :default_arch => '64',
+    :versions => {
+      '10.2' => {
+        '64' => 'freebsd/FreeBSD-10.2-STABLE'
+      },
+      '10.3' => {
+        '64' => 'freebsd/FreeBSD-10.3-STABLE'
+      },
+      '11.0' => {
+        '64' => 'freebsd/FreeBSD-11.0-STABLE'
+      }
+    }
   }
 }
 
