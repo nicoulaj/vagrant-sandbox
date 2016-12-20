@@ -13,6 +13,7 @@ This project contains a preconfigured Vagrant environment for running various sy
  * [OpenBSD](https://www.openbsd.org)
  * [FreeBSD](https://www.freebsd.org)
  * [Solaris](http://www.oracle.com/solaris)
+ * [Windows](https://www.microsoft.com/windows)
  
  Prerequisites
  ----------------

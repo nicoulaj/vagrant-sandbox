@@ -149,6 +149,68 @@ systems = {
         '64' => 'jonatasbaldin/solaris11'
       }
     }
+  },
+  :windows => {
+    :default_version => '2012',
+    :default_arch => '64',
+    :versions => {
+      '7-enterprise' => {
+        '32' => 'opentable/win-7-enterprise-i386-nocm',
+        '64' => 'opentable/win-7-enterprise-amd64-nocm'
+      },
+      '7-home' => {
+        '32' => 'opentable/win-7-homepremium-i386-nocm',
+        '64' => 'opentable/win-7-homepremium-amd64-nocm'
+      },
+      '7-professional' => {
+        '32' => 'opentable/win-7-professional-i386-nocm',
+        '64' => 'opentable/win-7-professional-amd64-nocm'
+      },
+      '7-ultimate' => {
+        '32' => 'opentable/win-7-ultimate-i386-nocm',
+        '64' => 'opentable/win-7-ultimate-amd64-nocm'
+      },
+      '8-core' => {
+        '32' => 'opentable/win-8-core-i386-nocm',
+        '64' => 'opentable/win-8-core-amd64-nocm'
+      },
+      '8-enterprise' => {
+        '32' => 'opentable/win-8-enterprise-i386-nocm',
+        '64' => 'opentable/win-8-enterprise-amd64-nocm'
+      },
+      '8-pro' => {
+        '32' => 'opentable/win-8-pro-i386-nocm',
+        '64' => 'opentable/win-8-pro-amd64-nocm'
+      },
+      '8.1-core' => {
+        '32' => 'opentable/win-8.1-core-i386-nocm',
+        '64' => 'opentable/win-8.1-core-amd64-nocm'
+      },
+      '8.1-enterprise' => {
+        '64' => 'opentable/win-8.1-enterprise-i386-nocm',
+        '64' => 'opentable/win-8.1-enterprise-amd64-nocm'
+      },
+      '2008-datacenter' => {
+        '32' => 'opentable/win-2008-datacenter-i386-nocm',
+        '64' => 'opentable/win-2008-datacenter-amd64-nocm'
+      },
+      '2008-enterprise' => {
+        '32' => 'opentable/win-2008-enterprise-i386-nocm',
+        '64' => 'opentable/win-2008-enterprise-amd64-nocm'
+      },
+      '2012-datacenter' => {
+        '64' => 'opentable/win-2012-datacenter-amd64-nocm'
+      },
+      '2012-essentials' => {
+        '64' => 'opentable/win-2012-essentials-amd64-nocm'
+      },
+      '2012-foundation' => {
+        '64' => 'opentable/win-2012-foundation-amd64-nocm'
+      },
+      '2012-standard' => {
+        '64' => 'opentable/win-2012-standard-amd64-nocm'
+      }
+    }
   }
 }
 
