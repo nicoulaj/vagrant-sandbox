@@ -90,6 +90,15 @@ systems = {
       },
     }
   },
+  :gentoo => {
+    :default_version => 'latest',
+    :default_arch => '64',
+    :versions => {
+      'latest' => {
+        '64' => 'cmiles/gentoo-amd64-minimal'
+      },
+    }
+  },
   :openbsd => {
     :default_version => '6.0',
     :default_arch => '64',
