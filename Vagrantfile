@@ -73,6 +73,9 @@ systems = {
     :default_version => '7',
     :default_arch => '64',
     :versions => {
+      '5' => {
+        '64' => 'hajee/centos-5.10-x86_64'
+      },
       '6' => {
         '64' => 'centos/6'
       },
@@ -96,6 +99,15 @@ systems = {
     :versions => {
       'latest' => {
         '64' => 'cmiles/gentoo-amd64-minimal'
+      },
+    }
+  },
+  :voidlinux => {
+    :default_version => 'latest',
+    :default_arch => '64',
+    :versions => {
+      'latest' => {
+        '64' => 'antonio-malcolm/base-void-x86_64'
       },
     }
   },
