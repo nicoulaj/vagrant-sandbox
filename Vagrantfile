@@ -111,6 +111,16 @@ systems = {
       },
     }
   },
+  :nixos => {
+    :default_version => '16.09',
+    :default_arch => '64',
+    :versions => {
+      '16.09' => {
+        '32' => 'nixos/nixos-16.09-i686',
+        '64' => 'nixos/nixos-16.09-x86_64'
+      },
+    }
+  },
   :opensuse => {
     :default_version => '13.2',
     :default_arch => '64',

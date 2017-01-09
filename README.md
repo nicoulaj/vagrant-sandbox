@@ -10,6 +10,7 @@ This project contains a preconfigured Vagrant environment for running various sy
  * [Arch Linux](https://www.archlinux.org)
  * [Gentoo](https://www.gentoo.org)
  * [Void Linux](http://www.voidlinux.eu)
+ * [NixOS](https://nixos.org)
  * [OpenSUSE](https://www.opensuse.org)
  * [OpenBSD](https://www.openbsd.org)
  * [FreeBSD](https://www.freebsd.org)
