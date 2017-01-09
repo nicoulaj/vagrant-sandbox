@@ -1,33 +1,40 @@
 Vagrant sandbox
-==========
+===============
 
 This project contains a preconfigured Vagrant environment for running various systems in a single command:
 
- * [Debian](https://www.debian.org)
- * [Ubuntu](https://www.ubuntu.com)
- * [Fedora](https://getfedora.org)
- * [CentOS](https://www.centos.org)
- * [Arch Linux](https://www.archlinux.org)
- * [Gentoo](https://www.gentoo.org)
- * [Void Linux](http://www.voidlinux.eu)
- * [NixOS](https://nixos.org)
- * [OpenSUSE](https://www.opensuse.org)
- * [OpenBSD](https://www.openbsd.org)
- * [FreeBSD](https://www.freebsd.org)
- * [Solaris](http://www.oracle.com/solaris)
- * [Windows](https://www.microsoft.com/windows)
- * [MacOS](http://www.apple.com/macos)
- 
- Prerequisites
- ----------------
- 
+| System                                       | Command                |
+| -------------------------------------------- | ---------------------- |
+| [Debian](https://www.debian.org)             | `vagrant up debian`    |
+| [Ubuntu](https://www.ubuntu.com)             | `vagrant up ubuntu`    |
+| [Fedora](https://getfedora.org)              | `vagrant up fedora`    |
+| [CentOS](https://www.centos.org)             | `vagrant up centos`    |
+| [Arch Linux](https://www.archlinux.org)      | `vagrant up archlinux` |
+| [Gentoo](https://www.gentoo.org)             | `vagrant up gentoo`    |
+| [Void Linux](http://www.voidlinux.eu)        | `vagrant up voidlinux` |
+| [NixOS](https://nixos.org)                   | `vagrant up nixos`     |
+| [OpenSUSE](https://www.opensuse.org)         | `vagrant up opensuse`  |
+| [OpenBSD](https://www.openbsd.org)           | `vagrant up openbsd`   |
+| [FreeBSD](https://www.freebsd.org)           | `vagrant up freebsd`   |
+| [Solaris](http://www.oracle.com/solaris)     | `vagrant up solaris`   |
+| [Windows](https://www.microsoft.com/windows) | `vagrant up windows`   |
+| [MacOS](http://www.apple.com/macos)          | `vagrant up macos`     |
+
+
+Prerequisites
+-------------
+
   * [Vagrant](https://www.vagrantup.com)
   * [VirtualBox](https://www.virtualbox.org)
-  
-  Usage
-  -------
-  
-   * Get the `Vagrantfile`.
+
+Usage
+-----
+
+   * Get the `Vagrantfile`:
+
+            git clone https://github.com/nicoulaj/vagrant-sandbox.git
+            cd vagrant-sandbox
+
    * Run `vagrant` to see the full list of available systems:
 
             This Vagrant environment can start the following systems:
@@ -48,4 +55,3 @@ This project contains a preconfigured Vagrant environment for running various sy
  * Start a virtual machine:
  
         $ vagrant up centos
- 
