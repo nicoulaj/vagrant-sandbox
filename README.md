@@ -32,26 +32,26 @@ Usage
 
  * Get the `Vagrantfile`:
 
-       git clone https://github.com/nicoulaj/vagrant-sandbox.git
-       cd vagrant-sandbox
+        git clone https://github.com/nicoulaj/vagrant-sandbox.git
+        cd vagrant-sandbox
 
  * Run `vagrant` to see the full list of available systems:
 
-       This Vagrant environment can start the following systems:
-         * ubuntu (default ubuntu xenial 64)          $ vagrant up ubuntu
-             ubuntu precise 32                        $ vagrant up ubuntu-precise-32
-             ubuntu precise 64                        $ vagrant up ubuntu-precise-64
-             ubuntu trusty 32                         $ vagrant up ubuntu-trusty-32
-             ubuntu trusty 64                         $ vagrant up ubuntu-trusty-64
-             ubuntu xenial 32                         $ vagrant up ubuntu-xenial-32
-             ubuntu xenial 64                         $ vagrant up ubuntu-xenial-64
-         * debian (default debian jessie 64)          $ vagrant up debian
-             debian wheezy 32                         $ vagrant up debian-wheezy-32
-             debian wheezy 64                         $ vagrant up debian-wheezy-64
-             debian jessie 32                         $ vagrant up debian-jessie-32
-             debian jessie 64                         $ vagrant up debian-jessie-64
-       ...
+        This Vagrant environment can start the following systems:
+          * ubuntu (default ubuntu xenial 64)          $ vagrant up ubuntu
+              ubuntu precise 32                        $ vagrant up ubuntu-precise-32
+              ubuntu precise 64                        $ vagrant up ubuntu-precise-64
+              ubuntu trusty 32                         $ vagrant up ubuntu-trusty-32
+              ubuntu trusty 64                         $ vagrant up ubuntu-trusty-64
+              ubuntu xenial 32                         $ vagrant up ubuntu-xenial-32
+              ubuntu xenial 64                         $ vagrant up ubuntu-xenial-64
+          * debian (default debian jessie 64)          $ vagrant up debian
+              debian wheezy 32                         $ vagrant up debian-wheezy-32
+              debian wheezy 64                         $ vagrant up debian-wheezy-64
+              debian jessie 32                         $ vagrant up debian-jessie-32
+              debian jessie 64                         $ vagrant up debian-jessie-64
+        ...
 
  * Start a virtual machine:
  
-       $ vagrant up centos
+        $ vagrant up centos
