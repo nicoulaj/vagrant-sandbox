@@ -74,7 +74,7 @@ systems = {
     :default_arch => '64',
     :versions => {
       '5' => {
-        '64' => 'hajee/centos-5.10-x86_64'
+        '64' => 'bento/centos-5.11'
       },
       '6' => {
         '64' => 'centos/6'
