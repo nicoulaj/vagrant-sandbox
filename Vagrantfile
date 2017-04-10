@@ -258,11 +258,12 @@ systems = {
 if ARGV.empty?
   puts 'This Vagrant environment can start the following systems:'
   systems.each do |system, system_data|
-    puts '  * %-42s $ vagrant up %s' % ["#{system} (default #{system} #{system_data[:default_version]} #{system_data[:default_arch]})", system]
+    puts '  * %-42s $ vagrant up %s' % ["#{system} (default #{system_data[:default_version]}/#{system_data[:default_arch]})", system]
     system_data[:versions].each do |version, version_data|
-    version_data.each do |arch, box|
-      puts '      %-40s $ vagrant up %s-%s-%s' % ["#{system} #{version} #{arch}", system, version, arch]
-    end
+      puts '      %-40s $ vagrant up %s-%s' % ["version: #{version}", system, version]
+      version_data.each do |arch, box|
+        puts '        %-38s $ vagrant up %s-%s-%s' % ["arch: #{arch}", system, version, arch]
+      end
     end
   end
 end
@@ -281,6 +282,9 @@ Vagrant.configure("2") do |config|
       node.vm.box = system_data[:versions][system_data[:default_version]][system_data[:default_arch]]
     end
     system_data[:versions].each do |version, version_data|
+      config.vm.define "#{system}-#{version}", autostart: false do |node|
+        node.vm.box = version_data[system_data[:default_arch]]
+      end
       version_data.each do |arch, box|
         config.vm.define "#{system}-#{version}-#{arch}", autostart: false do |node|
           node.vm.box = box
