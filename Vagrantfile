@@ -80,10 +80,10 @@ systems = {
         '64' => 'bento/centos-5.11'
       },
       '6' => {
-        '64' => 'centos/6'
+        '64' => 'bento/centos-6.8'
       },
       '7' => {
-        '64' => 'centos/7'
+        '64' => 'bento/centos-7.3'
       },
     }
   },
