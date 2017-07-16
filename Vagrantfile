@@ -34,6 +34,14 @@ systems = {
       'xenial' => {
         '32' => 'ubuntu/xenial32',
         '64' => 'ubuntu/xenial64'
+      },
+      'yakkety' => {
+        '32' => 'ubuntu/yakkety32',
+        '64' => 'ubuntu/yakkety64'
+      },
+      'zesty' => {
+        '32' => 'ubuntu/zesty32',
+        '64' => 'ubuntu/zesty64'
       }
     }
   },
