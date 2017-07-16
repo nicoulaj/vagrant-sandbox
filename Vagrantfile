@@ -60,7 +60,7 @@ systems = {
     }
   },
   :fedora => {
-    :default_version => '25',
+    :default_version => '26',
     :default_arch => '64',
     :versions => {
       '21' => {
@@ -77,6 +77,9 @@ systems = {
       },
       '25' => {
         '64' => 'bento/fedora-25'
+      },
+      '26' => {
+        '64' => 'bento/fedora-26'
       }
     }
   },
