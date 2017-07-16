@@ -20,7 +20,7 @@
 # Systems
 systems = {
   :ubuntu => {
-    :default_version => 'xenial',
+    :default_version => 'zesty',
     :default_arch => '64',
     :versions => {
       'precise' => {
