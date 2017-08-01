@@ -46,7 +46,7 @@ systems = {
     }
   },
   :debian => {
-    :default_version => 'jessie',
+    :default_version => 'stretch',
     :default_arch => '64',
     :versions => {
       'wheezy' => {
@@ -56,6 +56,10 @@ systems = {
       'jessie' => {
         '32' => 'puppetlabs/debian-8.2-32-nocm',
         '64' => 'debian/jessie64'
+      },
+      'stretch' => {
+        '32' => 'remram/debian-9-i386',
+        '64' => 'debian/stretch64'
       },
     }
   },
