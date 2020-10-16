@@ -20,7 +20,7 @@
 # Systems
 systems = {
   :ubuntu => {
-    :default_version => 'zesty',
+    :default_version => 'focal',
     :default_arch => '64',
     :versions => {
       'precise' => {
@@ -42,7 +42,13 @@ systems = {
       'zesty' => {
         '32' => 'ubuntu/zesty32',
         '64' => 'ubuntu/zesty64'
-      }
+      },
+      'focal' => {
+        '64' => 'ubuntu/focal64'
+      },
+      'groovy' => {
+        '64' => 'ubuntu/groovy64'
+      },
     }
   },
   :debian => {
