@@ -29,8 +29,10 @@ This project contains a preconfigured Vagrant environment for running various sy
 
 * Get the `Vagrantfile`:
 
-        git clone https://github.com/alastairhm/vagrant-sandbox.git
-        cd vagrant-sandbox
+```bash
+git clone https://github.com/nicoulaj/vagrant-sandbox.git
+cd vagrant-sandbox
+```
 
 * Run `vagrant` to see the full list of available systems:
 
