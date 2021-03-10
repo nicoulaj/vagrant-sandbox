@@ -119,7 +119,7 @@ systems = {
     :default_arch => '64',
     :versions => {
       'latest' => {
-        '64' => 'wholebits/arch-64'
+        '64' => 'terrywang/archlinux'
       },
     }
   },

@@ -9,9 +9,12 @@ Dates in this file are in format of YYYY-MM-DD (2019-12-12 means 12th of Decembe
 
 ## Unreleased
 
+## [[0.2.0](https://github.com/alastairhm/vagrant-sandbox/releases/tag/0.2.0)]
+
 ## Changed
 
-* Updating version and readme me [@alastairhm](https://github.com/alastairhm)
+* Updating version and readme md [@alastairhm](https://github.com/alastairhm)
+* Changing the Arch Linux box [@alastairhm](https://github.com/alastairhm)
 
 ## Added
 
