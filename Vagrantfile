@@ -5,12 +5,12 @@
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
@@ -20,7 +20,7 @@
 # Systems
 systems = {
   :ubuntu => {
-    :default_version => 'zesty',
+    :default_version => 'focal',
     :default_arch => '64',
     :versions => {
       'precise' => {
@@ -42,7 +42,13 @@ systems = {
       'zesty' => {
         '32' => 'ubuntu/zesty32',
         '64' => 'ubuntu/zesty64'
-      }
+      },
+      'focal' => {
+        '64' => 'ubuntu/focal64'
+      },
+      'groovy' => {
+        '64' => 'ubuntu/groovy64'
+      },
     }
   },
   :debian => {
@@ -64,7 +70,7 @@ systems = {
     }
   },
   :fedora => {
-    :default_version => '26',
+    :default_version => '32',
     :default_arch => '64',
     :versions => {
       '21' => {
@@ -84,11 +90,14 @@ systems = {
       },
       '26' => {
         '64' => 'bento/fedora-26'
+      },
+      '32' => {
+        '64' => 'bento/fedora-32'
       }
     }
   },
   :centos => {
-    :default_version => '7',
+    :default_version => '8',
     :default_arch => '64',
     :versions => {
       '5' => {
@@ -100,6 +109,9 @@ systems = {
       '7' => {
         '64' => 'bento/centos-7.3'
       },
+      '8' => {
+        '64' => 'bento/centos-8.2'
+      },
     }
   },
   :archlinux => {
@@ -107,7 +119,7 @@ systems = {
     :default_arch => '64',
     :versions => {
       'latest' => {
-        '64' => 'wholebits/arch-64'
+        '64' => 'terrywang/archlinux'
       },
     }
   },
@@ -164,7 +176,7 @@ systems = {
     }
   },
   :freebsd => {
-    :default_version => '11.0',
+    :default_version => '12.0',
     :default_arch => '64',
     :versions => {
       '10.2' => {
@@ -175,6 +187,9 @@ systems = {
       },
       '11.0' => {
         '64' => 'freebsd/FreeBSD-11.0-STABLE'
+      },
+      '12.0' => {
+        '64' => 'freebsd/FreeBSD-12.0-STABLE'
       }
     }
   },
@@ -264,6 +279,15 @@ systems = {
       },
       'sierra' => {
         '64' => 'jhcook/macos-sierra'
+      }
+    }
+  },
+  :kali => {
+    :default_version => 'acortespi20',
+    :default_arch => 'v1.0',
+    :versions => {
+      'acortespi20' => {
+        'v1.0' => 'acortespi20/kali'
       }
     }
   },

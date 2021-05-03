@@ -1,5 +1,4 @@
-Vagrant sandbox
-===============
+# Vagrant sandbox
 
 This project contains a preconfigured Vagrant environment for running various systems in a single command:
 
@@ -19,23 +18,23 @@ This project contains a preconfigured Vagrant environment for running various sy
 | [Solaris](http://www.oracle.com/solaris)     | `vagrant up solaris`   |
 | [Windows](https://www.microsoft.com/windows) | `vagrant up windows`   |
 | [MacOS](http://www.apple.com/macos)          | `vagrant up macos`     |
+| [Kali](https://www.kali.org/)                | `vagrant up kali`      |
 
+## Prerequisites
 
-Prerequisites
--------------
+* [Vagrant](https://www.vagrantup.com)
+* [VirtualBox](https://www.virtualbox.org)
 
-  * [Vagrant](https://www.vagrantup.com)
-  * [VirtualBox](https://www.virtualbox.org)
+## Usage
 
-Usage
------
+* Get the `Vagrantfile`:
 
- * Get the `Vagrantfile`:
+```bash
+git clone https://github.com/nicoulaj/vagrant-sandbox.git
+cd vagrant-sandbox
+```
 
-        git clone https://github.com/nicoulaj/vagrant-sandbox.git
-        cd vagrant-sandbox
-
- * Run `vagrant` to see the full list of available systems:
+* Run `vagrant` to see the full list of available systems:
 
         This Vagrant environment can start the following systems:
           * ubuntu (default ubuntu xenial 64)          $ vagrant up ubuntu
@@ -52,6 +51,6 @@ Usage
               debian jessie 64                         $ vagrant up debian-jessie-64
         ...
 
- * Start a virtual machine:
- 
+* Start a virtual machine:
+
         $ vagrant up centos
